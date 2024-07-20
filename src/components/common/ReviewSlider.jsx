@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"
 import "swiper/css/free-mode"
 import "swiper/css/pagination"
-import ReactStars from "./RatingStars"
+// import ReactStars from "./RatingStars"
 import { apiConnector } from '../../services/apiconnector';
 import { ratingsEndpoints } from '../../services/apis';
 import { FreeMode, Pagination, Autoplay } from "swiper/modules"
