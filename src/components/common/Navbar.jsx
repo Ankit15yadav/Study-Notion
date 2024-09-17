@@ -160,7 +160,7 @@ function Navbar() {
                                 {link.title === "Catalog" ? (
                                     <div>
                                         <div
-                                            className={`flex cursor-pointer items-center gap-1 ${matchRoute("/catalog/:catalogName")
+                                            className={`flex cursor-pointer  items-center gap-1 ${matchRoute("/catalog/:catalogName")
                                                 ? "text-yellow-25"
                                                 : "text-richblack-25"
                                                 }`}
@@ -181,7 +181,7 @@ function Navbar() {
                                                                     .split(" ")
                                                                     .join("-")
                                                                     .toLowerCase()}`}
-                                                                className="block rounded-lg bg-transparent py-2 pl-2 hover:bg-richblack-50"
+                                                                className="block rounded-lg text-black bg-transparent py-2 pl-2 hover:bg-richblack-50"
                                                                 key={i}
                                                                 onClick={toggleMobileMenu} // Close menu after click
                                                             >
@@ -190,7 +190,7 @@ function Navbar() {
                                                         ))}
                                                     </>
                                                 ) : (
-                                                    <p className="text-center">No Courses Found</p>
+                                                    <p className="text-center text-black">No Courses Found</p>
                                                 )}
                                             </div>
                                         )}
