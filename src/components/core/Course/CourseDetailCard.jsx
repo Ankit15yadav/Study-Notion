@@ -8,6 +8,7 @@ import { ACCOUNT_TYPE } from "../../../utils/constants"
 import { addToCart } from '../../../slice/cartSlice';
 
 function CourseDetailCard({ course, setConfirmationModal, handleBuyCourse }) {
+    
 
     const { user } = useSelector((state) => state.profile);
     const { token } = useSelector((state) => state.auth);
